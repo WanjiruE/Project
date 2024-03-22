@@ -1,0 +1,130 @@
+
+body {
+    
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-image: url('Background.jpg'); 
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat
+}
+   
+
+}
+header {
+   background-color: rgb(222, 135, 218);
+   color: white;
+   padding: 10px 0;
+   text-align: center;
+   font-size: 1cm;
+   font-weight: bold;
+   border-bottom: 2px solid aqua;
+   text-shadow: 1px 1px 1px rgb(89, 12, 92);
+   text-transform: uppercase;
+}
+nav {
+   background-color: #444;
+   color: #fff;
+   padding: 10px 0;
+   text-align: center; 
+}
+nav a {
+   color: #fff;
+   text-decoration: none;
+   margin: 0 10px;
+}
+section { 
+   padding: 20px;
+   margin: 20px; 
+   background-color: #fff;
+   border-radius: 5px; 
+}
+footer {
+   background-color: aqua;
+
+color: #fff;
+   padding: 10px 0;
+   text-align: center;
+}
+
+
+.about-column {
+   background-color: #f2f2f2;
+   padding: 20px;
+   border-radius: 5px;
+}
+.careers-column {
+   background-color: #f2f2f2;
+   padding: 20px;
+   border-radius: 5px;
+}
+.contact-column {
+   background-color: #f2f2f2;
+   padding: 20px;
+   border-radius: 5px;
+}
+.gallery-column {
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 5px;
+
+overflow: hidden;
+width: 100%;
+max-width: 1000px; 
+margin: 0 auto; 
+position: relative; 
+height: 400px; 
+}
+.slider{
+
+animation: slide 10s infinite linear; 
+position: center; 
+top: 10;
+left: 60;
+height: 50%; 
+}
+
+.slider img {
+width: 100%;
+height: 50%;
+position: center;
+}
+
+@keyframes slide {
+0% {
+transform: translateX(0);
+}
+100% {
+transform: translateX(0%);
+}
+        
+                                                                                                     
+.services-column {
+   background-color: #f2f2f2;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+.video-container {
+   display: flex;
+   justify-content: center;
+}
+
+.video-container video {
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+}
+
+.about-section-text b {
+   font-weight: bold;
+}
+
+.services-list {
+   list-style-type: none;
+}
+
+.services-list li {
+   margin-bottom: 10px;
+}
